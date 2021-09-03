@@ -1,8 +1,8 @@
 import 'package:test/test.dart';
 
 bool xo(String str) {
-  var xReg = RegExp('[x]', caseSensitive: false);
-  var oReg = RegExp('[o]', caseSensitive: false);
+  final xReg = RegExp('[x]', caseSensitive: false);
+  final oReg = RegExp('[o]', caseSensitive: false);
 
   return xReg.allMatches(str).length == oReg.allMatches(str).length;
 }

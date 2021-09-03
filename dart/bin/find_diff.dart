@@ -13,8 +13,8 @@ import 'package:test/test.dart';
 
 int findDifference(List<int> a, List<int> b) {
   // keep it simple :p
-  var volA = a[0] * a[1] * a[2];
-  var volB = b[0] * b[1] * b[2];
+  final volA = a[0] * a[1] * a[2];
+  final volB = b[0] * b[1] * b[2];
 
   return (volA - volB).abs();
 }

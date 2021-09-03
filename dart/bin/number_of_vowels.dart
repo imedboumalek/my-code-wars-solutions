@@ -1,10 +1,10 @@
 // See https://pub.dartlang.org/packages/test
-import 'package:test/test.dart';
-
 import "dart:core";
 
+import 'package:test/test.dart';
+
 int getCount(String inputStr) {
-  var vowels = <String>['a', 'e', 'i', 'o', 'u'];
+  final vowels = <String>['a', 'e', 'i', 'o', 'u'];
   var count = 0;
   inputStr.split('').forEach((element) {
     if (vowels.contains(element)) count++;
