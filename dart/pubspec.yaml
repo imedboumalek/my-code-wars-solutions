@@ -10,5 +10,5 @@ environment:
 #   path: ^1.8.0
 
 dev_dependencies:
-  pedantic: ^1.10.0
+  lints:
   test: ^1.17.5
